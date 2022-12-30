@@ -1,6 +1,6 @@
+# My Journey through Go
 
-
-# Concepts learned 
+## Concepts learned 
 1. Comments (*Commenting code in Go*) - Weather
 2. Number (*Numeric types*) - cars
 3. Arithmetic Operators - cars
@@ -19,11 +19,11 @@
 16. For Loops - bird_watcher
 17. Fuctions - lasagna_master
 18. Floating-point numbers - inerest
+19. Time  - booking
 
 
+## Yet to learn 
 
-# Yet to learn 
-19. Time 
 20. Maps
 21. Range Iteration
 22. Type Definitions 
