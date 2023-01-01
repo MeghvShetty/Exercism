@@ -38,3 +38,6 @@
 32. Type Assertion 
 33.First class Fuctions 
 
+## Addtional Concepts
+- Write to a file 
+- Reading a file 
