@@ -20,11 +20,10 @@
 17. Fuctions - lasagna_master
 18. Floating-point numbers - inerest
 19. Time  - booking
+20. Maps - gross 
 
 
 ## Yet to learn 
-
-20. Maps
 21. Range Iteration
 22. Type Definitions 
 23. Pointers 
