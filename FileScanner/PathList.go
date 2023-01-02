@@ -1,4 +1,4 @@
-package main
+package filescanner
 
 import (
 	"fmt"
@@ -32,8 +32,4 @@ func PathInfo() {
 		fmt.Println(AbsFilePath)
 	}
 
-}
-
-func main() {
-	PathInfo()
 }
