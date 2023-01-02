@@ -7,6 +7,8 @@ import (
 	"path/filepath"
 )
 
+var ProjectName string = "testing"
+
 func CreateDirStr(FileName string) {
 	root, erro := filepath.Abs("./")
 	if erro != nil {
