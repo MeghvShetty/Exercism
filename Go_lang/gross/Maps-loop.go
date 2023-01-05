@@ -1,4 +1,4 @@
-package gross
+package main
 
 import "fmt"
 
@@ -18,26 +18,25 @@ func Units() map[string]int {
 
 // NewBill creates a new bill.
 func NewBill() map[string]int {
-	return make(map[string]int)
+	bill := make(map[string]int)
+	return bill
 }
 
 // AddItem adds an item to customer bill.
 func AddItem(bill, units map[string]int, item, unit string) bool {
-	for key, val := range units {
-		fmt.Println(key, val)
+	i := 0
+	for key, Value := range units {
+		fmt.Println()
+
 	}
-}
-
-// RemoveItem removes an item from customer bill.
-func RemoveItem(bill, units map[string]int, item, unit string) bool {
-	panic("Please implement the RemoveItem() function")
-}
-
-// GetItem returns the quantity of an item that the customer has in his/her bill.
-func GetItem(bill map[string]int, item string) (int, bool) {
-	panic("Please implement the GetItem() function")
+	return false
 }
 
 func main() {
-	fmt.Println(Units())
+	bill := NewBill()
+	units := Units()
+	ok := AddItem(bill, units, "carrot", "test")
+	fmt.Println(ok)
+	fmt.Println(bill)
+
 }
