@@ -76,7 +76,7 @@ def fail_safe(temperature, neutrons_produced_per_second, threshold):
 # Teeting the Out 
 
 def main():
-    print(is_criticality_balanced(750, 650))
+    print(is_criticality_balanced(499.99,1000))
     print(reactor_efficiency(200,80,15000))
 
 if __name__ == '__main__':
