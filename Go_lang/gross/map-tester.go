@@ -21,17 +21,14 @@ func NewBill() map[string]int {
 }
 
 // Maps key passing
-func Keypassing(val map[string]int, unit string) (string, bool) {
+func Keypassing(val map[string]int, unit string) bool {
 	u, ok := val[unit]
-	if !ok {
-		return false
-	}
-
-	return ok, true
+	fmt.Println(u, ok)
+	return true
 }
 
 // AddItem adds an item to customer bill.
-func AddItem(bill, units map[string]int, item, unit string) {
+func AddItem(bill, units map[string]int, item, unit string) bool {
 	return true
 }
 
@@ -54,3 +51,7 @@ func main() {
 	fmt.Println(data)
 	// ok := AddItem(bill, units, "carrot", "dozen")
 }
+return ok,false
+}
+
+return u, true
