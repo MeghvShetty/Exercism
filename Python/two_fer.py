@@ -10,7 +10,7 @@ def Give_name(name):
     # Teeting the Out 
 
 def main():
-    print(Give_name("maegh"))
+    print(Give_name(""))
     
 
 if __name__ == '__main__':
