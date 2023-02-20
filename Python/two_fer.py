@@ -1,4 +1,4 @@
-def Give_name(name):
+def two_fer(name="you"):
     """Given name take a string in put as a parra 
 
     Args:
@@ -6,11 +6,8 @@ def Give_name(name):
         :returns : string
     """
     return("One for "+name+", one for me.")
-    
-    # Teeting the Out 
-
 def main():
-    print(Give_name(""))
+    print(two_fer())
     
 
 if __name__ == '__main__':
