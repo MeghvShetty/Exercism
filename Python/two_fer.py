@@ -5,10 +5,14 @@ def two_fer(name="you"):
         :param name (string): name of the user 
         :returns : string
     """
+    #name=name.replace("'", "''") 
+    name=name.replace("<","/")
     return("One for "+name+", one for me.")
 def main():
-    print(two_fer())
+    value = "<script>this is XSS</script>"
+    print(two_fer(value))
     
 
 if __name__ == '__main__':
     main()
+
