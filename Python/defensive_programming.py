@@ -8,6 +8,13 @@ def fizzBuzz(number):
         return "Buzz"
     else:
         return number
+    
 
-passingValue =  fizzBuzz("10")
-print(passingValue)
+# Testing a Function  
+def test_fizz_buzz_multiples_3():
+    for item in [3,6,9,12,33,-10]:
+        assert fizzBuzz(item) == 'Fizz', f"{item}"
+
+
+
+print(test_fizz_buzz_multiples_3())
