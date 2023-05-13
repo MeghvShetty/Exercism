@@ -22,21 +22,20 @@ func (g *Graph) AddEdge(u, v int) {
 
 func DFS(g *Graph, start int, visited map[int]bool) {
 	visited[start] = true
-	fmt.Println("%d", start)
+	fmt.Printf("%d ", start)
 
 	neighbors := g.adjList[start]
 	for _, neighbor := range neighbors {
 		if !visited[neighbor] {
 			DFS(g, neighbor, visited)
 		}
-
 	}
 }
 
 func main() {
 	g := NewGraph()
 
-	//Example graph
+	// Example graph
 	g.AddEdge(0, 1)
 	g.AddEdge(0, 2)
 	g.AddEdge(1, 3)
@@ -48,4 +47,5 @@ func main() {
 	visited := make(map[int]bool)
 
 	fmt.Println("Depth-First Traversal (DFS):")
+	DFS(g, startNode, visited)
 }
