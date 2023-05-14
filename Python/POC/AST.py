@@ -1,5 +1,5 @@
 import ast
-data_file = "/home/meghshetty/Documents/Projects/Exercism/Python/two_fer.py"
+data_file = "Python/POC/two_fer.py"
 data_terr = "/home/meghshetty/Documents/Projects/Exercism/Go_lang/astTester/terraform.tf"
 f = open(data_file)
 data =f.read()
