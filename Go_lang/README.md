@@ -42,6 +42,8 @@
 - Write to a file - WriteFile 
 - Reading a file -  readFile
 - Creating Dir & Tempfile - CreatDir
-
+- BFS (Breadth-first search)
+- DFS (Depath-first search)
+- 
 
 
