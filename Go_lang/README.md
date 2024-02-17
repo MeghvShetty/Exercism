@@ -21,11 +21,10 @@
 18. Floating-point numbers - inerest
 19. Time  - booking
 20. Maps - gross 
-
+21. Range Iteration - chessboard
+22. Type Definitions  - chessboard 
 
 ## Yet to learn 
-21. Range Iteration
-22. Type Definitions 
 23. Pointers 
 24. Methods
 25. Runes
